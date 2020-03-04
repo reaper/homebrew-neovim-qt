@@ -1,9 +1,9 @@
 class NeovimQt < Formula
-  desc "Neovim GUI, in Qt5"
-  homepage "https://github.com/equalsraf/neovim-qt"
-  url "https://github.com/equalsraf/neovim-qt/archive/v0.2.13.tar.gz"
-  sha256 "382d6db482804e830d14b922caaef4500c325f3a380165d68b6e998d99deb837"
-  head "https://github.com/equalsraf/neovim-qt.git"
+  desc "Neovim GUI in Qt5"
+  homepage "https://github.com/reaper/neovim-qt"
+  url "https://github.com/equalsraf/neovim-qt/archive/v0.2.15.tar.gz"
+  sha256 "0e36c911b312a639140834d570a856294eb4b5830c4b86f99347deb02c0f5ca4"
+  head "https://github.com/reaper/neovim-qt.git"
 
   depends_on "cmake" => :build
   depends_on "qt"
